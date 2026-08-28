@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="modern.css" />
   </head>
   <body>
     <div class="announcement">Applications for the 2025 community artist residency are now open <a href="#get-involved">Learn more →</a></div>
@@ -43,9 +44,9 @@
       <section class="programs" id="programs">
         <div class="section-heading"><p class="eyebrow">Ways we show up</p><h2>Programs built with<br /><em>our neighbors.</em></h2></div>
         <div class="program-grid">
-          <article class="program-card orange"><p class="number">01</p><div class="card-illustration hands">✋</div><h3>Open Studio</h3><p>Free materials, shared space, and an open invitation to make something.</p><a href="#get-involved" aria-label="Learn about Open Studio">→</a></article>
-          <article class="program-card blue"><p class="number">02</p><div class="card-illustration stars">✦ ✧</div><h3>Young Makers</h3><p>After-school workshops that put young people in the creative lead.</p><a href="#get-involved" aria-label="Learn about Young Makers">→</a></article>
-          <article class="program-card lilac"><p class="number">03</p><div class="card-illustration radio">◉</div><h3>Artist Exchange</h3><p>Resources and relationships for local artists to grow bold ideas.</p><a href="#get-involved" aria-label="Learn about Artist Exchange">→</a></article>
+          <article class="program-card orange"><p class="number">01</p><div class="card-illustration hands">✋</div><h3>Open Studio</h3><p>Free materials, shared space, and an open invitation to make something.</p><button class="round-action" data-dialog-title="Open Studio" data-dialog-copy="Drop in, use the materials, and make something alongside your neighbors. Contact us to find the next open studio session." aria-label="Learn about Open Studio">→</button></article>
+          <article class="program-card blue"><p class="number">02</p><div class="card-illustration stars">✦ ✧</div><h3>Young Makers</h3><p>After-school workshops that put young people in the creative lead.</p><button class="round-action" data-dialog-title="Young Makers" data-dialog-copy="Young Makers is an after-school creative space where young people explore new tools, ideas, and ways to share their point of view." aria-label="Learn about Young Makers">→</button></article>
+          <article class="program-card lilac"><p class="number">03</p><div class="card-illustration radio">◉</div><h3>Artist Exchange</h3><p>Resources and relationships for local artists to grow bold ideas.</p><button class="round-action" data-dialog-title="Artist Exchange" data-dialog-copy="Artist Exchange connects local makers with resources, mentorship, and an encouraging community for their next big idea." aria-label="Learn about Artist Exchange">→</button></article>
         </div>
       </section>
 
@@ -57,15 +58,17 @@
       <section class="events" id="events">
         <div class="section-heading"><p class="eyebrow">On the calendar</p><h2>Come make a<br /><em>memory with us.</em></h2></div>
         <div class="event-list">
-          <a href="#get-involved" class="event"><span class="date">MAY<br /><b>18</b></span><div><p class="tag">WORKSHOP</p><h3>Printmaking in the Park</h3><p>Riverside Green · 11am–3pm</p></div><span class="arrow">↗</span></a>
-          <a href="#get-involved" class="event"><span class="date">JUN<br /><b>06</b></span><div><p class="tag">EXHIBITION</p><h3>In Full Color: Youth Showcase</h3><p>Common Thread Gallery · 6–9pm</p></div><span class="arrow">↗</span></a>
-          <a href="#get-involved" class="event"><span class="date">JUN<br /><b>22</b></span><div><p class="tag">GATHERING</p><h3>Summer Solstice Social</h3><p>Common Thread Courtyard · 5–8pm</p></div><span class="arrow">↗</span></a>
+          <button class="event" data-dialog-title="Printmaking in the Park" data-dialog-copy="Join us at Riverside Green, 11am–3pm. No experience is needed and all materials are supplied."><span class="date">MAY<br /><b>18</b></span><span><span class="tag">WORKSHOP</span><strong>Printmaking in the Park</strong><small>Riverside Green · 11am–3pm</small></span><span class="arrow">↗</span></button>
+          <button class="event" data-dialog-title="In Full Color: Youth Showcase" data-dialog-copy="Celebrate the imagination of young local artists at Common Thread Gallery, 6–9pm."><span class="date">JUN<br /><b>06</b></span><span><span class="tag">EXHIBITION</span><strong>In Full Color: Youth Showcase</strong><small>Common Thread Gallery · 6–9pm</small></span><span class="arrow">↗</span></button>
+          <button class="event" data-dialog-title="Summer Solstice Social" data-dialog-copy="Gather with artists, neighbors, and friends in the Common Thread Courtyard from 5–8pm."><span class="date">JUN<br /><b>22</b></span><span><span class="tag">GATHERING</span><strong>Summer Solstice Social</strong><small>Common Thread Courtyard · 5–8pm</small></span><span class="arrow">↗</span></button>
         </div>
       </section>
 
       <section class="cta" id="get-involved"><div><p class="eyebrow">There’s a place for you here</p><h2>Help keep<br /><em>the door open.</em></h2><p>Your contribution makes joyful, meaningful art experiences free and accessible.</p><a class="button button-light" href="mailto:hello@commonthreadarts.org">Get involved <span>↗</span></a></div><div class="cta-star">✳</div></section>
     </main>
-    <footer><a class="brand" href="#top"><span class="brand-mark">CT</span><span>Common Thread<br /><i>Arts</i></span></a><p>Art is a public good. Let’s keep it that way.</p><div><a href="#top">Instagram</a><a href="#top">Newsletter</a><a href="#top">Contact</a></div><small>© 2025 Common Thread Arts. A project shell ready for your story.</small></footer>
+    <footer><a class="brand" href="#top"><span class="brand-mark">CT</span><span>Common Thread<br /><i>Arts</i></span></a><p>Art is a public good. Let’s keep it that way.</p><div><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a><button class="footer-link" data-newsletter>Newsletter</button><a href="mailto:hello@commonthreadarts.org">Contact</a></div><small>© 2025 Common Thread Arts. A project shell ready for your story.</small></footer>
+    <dialog class="info-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close">×</button><p class="eyebrow">Common Thread Arts</p><h2 id="dialog-title"></h2><p id="dialog-copy"></p><a class="button" href="mailto:hello@commonthreadarts.org">Contact us <span>↗</span></a></dialog>
+    <dialog class="info-dialog newsletter-dialog" aria-labelledby="newsletter-title"><button class="dialog-close" aria-label="Close">×</button><p class="eyebrow">Stay in the loop</p><h2 id="newsletter-title">Make more with us.</h2><p>Get upcoming workshops, events, and community stories in your inbox.</p><form class="newsletter-form"><label for="email">Email address</label><input id="email" type="email" placeholder="you@email.com" required /><button class="button" type="submit">Sign me up <span>→</span></button></form><p class="form-success" hidden>Thank you — you’re on the list!</p></dialog>
     <script src="script.js"></script>
   </body>
 </html>
