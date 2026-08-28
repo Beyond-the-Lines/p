@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="modern.css" />
+    <link rel="stylesheet" href="site-additions.css" />
   </head>
   <body>
     <div class="announcement">Applications for the 2025 community artist residency are now open <a href="#get-involved">Learn more →</a></div>
@@ -17,7 +18,7 @@
       <a class="brand" href="#top" aria-label="Common Thread Arts home"><span class="brand-mark">CT</span><span>Common Thread<br /><i>Arts</i></span></a>
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu <span>+</span></button>
       <nav aria-label="Primary navigation">
-        <a href="about.html">About us</a><a href="#programs">Programs</a><a href="#impact">Impact</a><a href="#events">Events</a>
+        <a href="about.html">About us</a><a href="#programs">Programs</a><a href="#impact">Impact</a><a href="events.html">Events</a>
         <a class="button button-small" href="#get-involved">Donate <span>↗</span></a>
       </nav>
     </header>
@@ -30,12 +31,17 @@
           <p class="lede">Our mission is to make art accessible to everyone.</p>
           <div class="hero-actions"><a class="button" href="#get-involved">Get involved <span>↓</span></a></div>
         </div>
-        <div class="hero-art hero-photo"><img src="assets/art-workshop-hero.jpeg" alt="Young artists painting together at a workshop" /></div>
+        <div class="hero-art hero-photo"><img src="art-workshop-hero.jpg" alt="Young artists painting together at a workshop" /></div>
       </section>
 
       <section class="intro" id="about">
         <p class="eyebrow">What we believe</p>
         <div><h2>When people have the tools to tell their stories, <em>whole communities come alive.</em></h2><a class="text-link" href="#get-involved">Our story <span>→</span></a></div>
+      </section>
+
+      <section class="why-section">
+        <div><p class="eyebrow">Why we’re here</p><h2>Art belongs to<br /><em>all of us.</em></h2></div>
+        <div><p>For some people art is just something that exists in their day to day life, but for others, it is how they process emotions and express their feelings. Although not everyone has this opportunity. They may have grown up in an environment where they didn’t have the supplies or the money to create.</p><p>We believe that everyone deserves a chance to freely express creativity.</p></div>
       </section>
 
       <section class="programs" id="programs">
@@ -59,9 +65,11 @@
           <button class="event" data-dialog-title="In Full Color: Youth Showcase" data-dialog-copy="Celebrate the imagination of young local artists at Common Thread Gallery, 6–9pm."><span class="date">JUN<br /><b>06</b></span><span><span class="tag">EXHIBITION</span><strong>In Full Color: Youth Showcase</strong><small>Common Thread Gallery · 6–9pm</small></span><span class="arrow">↗</span></button>
           <button class="event" data-dialog-title="Summer Solstice Social" data-dialog-copy="Gather with artists, neighbors, and friends in the Common Thread Courtyard from 5–8pm."><span class="date">JUN<br /><b>22</b></span><span><span class="tag">GATHERING</span><strong>Summer Solstice Social</strong><small>Common Thread Courtyard · 5–8pm</small></span><span class="arrow">↗</span></button>
         </div>
+        <a class="button events-page-link" href="events.html">All events &amp; workshops <span>→</span></a>
       </section>
 
-      <section class="cta" id="get-involved"><div><p class="eyebrow">There’s a place for you here</p><h2>Help keep<br /><em>the door open.</em></h2><p>Your contribution makes joyful, meaningful art experiences free and accessible.</p><a class="button button-light" href="mailto:hello@commonthreadarts.org">Get involved <span>↗</span></a></div><div class="cta-star">✳</div></section>
+      <section class="involvement" id="get-involved"><p class="eyebrow">Get involved</p><h2>There’s a place<br /><em>for you here.</em></h2><div class="involvement-grid"><a href="events.html" class="involvement-card"><span>01</span><h3>Workshops</h3><p>Find a creative gathering and make something with us.</p><b>Explore →</b></a><a href="mailto:hello@commonthreadarts.org?subject=Volunteering" class="involvement-card"><span>02</span><h3>Volunteering</h3><p>Give your time, skills, and care to our community.</p><b>Volunteer →</b></a><a href="mailto:hello@commonthreadarts.org?subject=Donation" class="involvement-card"><span>03</span><h3>Donations</h3><p>Help keep materials, programs, and possibilities free.</p><b>Donate →</b></a></div></section>
+      <section class="cta"><div><p class="eyebrow">Together, we keep creating</p><h2>Help keep<br /><em>the door open.</em></h2><p>Your contribution makes joyful, meaningful art experiences free and accessible.</p><a class="button button-light" href="mailto:hello@commonthreadarts.org?subject=Get%20involved">Get involved <span>↗</span></a></div><div class="cta-star">✳</div></section>
     </main>
     <footer><a class="brand" href="#top"><span class="brand-mark">CT</span><span>Common Thread<br /><i>Arts</i></span></a><p>Art is a public good. Let’s keep it that way.</p><div><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a><button class="footer-link" data-newsletter>Newsletter</button><a href="mailto:hello@commonthreadarts.org">Contact</a></div><small>© 2025 Common Thread Arts. A project shell ready for your story.</small></footer>
     <dialog class="info-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close">×</button><p class="eyebrow">Common Thread Arts</p><h2 id="dialog-title"></h2><p id="dialog-copy"></p><a class="button" href="mailto:hello@commonthreadarts.org">Contact us <span>↗</span></a></dialog>
